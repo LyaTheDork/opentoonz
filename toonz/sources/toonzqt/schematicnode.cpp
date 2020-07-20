@@ -475,7 +475,7 @@ void SchematicLink::paint(QPainter *painter,
     if (isSelected() || isHighlighted())
       painter->setPen(QColor(255, 255, 10));
     else
-      painter->setPen(QColor(50, 255, 50, 128));
+      painter->setPen(QColor(255, 0, 0, 128));
   } else if (isSelected() || isHighlighted())
     painter->setPen(QPen(Qt::cyan));
 
